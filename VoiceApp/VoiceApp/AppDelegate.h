@@ -12,4 +12,15 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (retain, nonatomic) NSMutableArray *completeExercises;
+@property (retain, nonatomic) NSMutableArray *duration;
+@property (retain, nonatomic) NSMutableArray *status;
+
+@property (retain, nonatomic) NSString *days;
+
+@property (retain, nonatomic) NSString *clinEmail;
+@property (retain, nonatomic) NSString *clinName;
+@property (retain, nonatomic) NSString *clName;
+@property (retain, nonatomic) NSString *clEmail;
+
 @end

@@ -23,6 +23,9 @@
 		2307AB6D17FB4FFF009B7DFB /* VoiceAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2307AB6C17FB4FFF009B7DFB /* VoiceAppTests.m */; };
 		2307AC1417FB65B1009B7DFB /* iOS App Background Screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2307AC1317FB65B1009B7DFB /* iOS App Background Screen@2x.png */; };
 		2307AC1717FB6FA4009B7DFB /* UITabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2307AC1617FB6FA4009B7DFB /* UITabController.m */; };
+		231530B4185EDA3A00E1B60A /* ClientInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231530B3185EDA3A00E1B60A /* ClientInfoController.m */; };
+		231530B71861806500E1B60A /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231530B61861806500E1B60A /* ScheduleViewController.m */; };
+		231530BA1861807E00E1B60A /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231530B91861807E00E1B60A /* ProgressViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +58,15 @@
 		2307AB6817FB4FFF009B7DFB /* VoiceAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceAppTests-Info.plist"; sourceTree = "<group>"; };
 		2307AB6A17FB4FFF009B7DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2307AB6C17FB4FFF009B7DFB /* VoiceAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceAppTests.m; sourceTree = "<group>"; };
-		2307AC1317FB65B1009B7DFB /* iOS App Background Screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS App Background Screen@2x.png"; path = "../iOS App Background Screen@2x.png"; sourceTree = "<group>"; };
+		2307AC1317FB65B1009B7DFB /* iOS App Background Screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS App Background Screen@2x.png"; path = "../../iOS App Background Screen@2x.png"; sourceTree = "<group>"; };
 		2307AC1517FB6FA4009B7DFB /* UITabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITabController.h; sourceTree = "<group>"; };
 		2307AC1617FB6FA4009B7DFB /* UITabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITabController.m; sourceTree = "<group>"; };
+		231530B2185EDA3A00E1B60A /* ClientInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientInfoController.h; sourceTree = "<group>"; };
+		231530B3185EDA3A00E1B60A /* ClientInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientInfoController.m; sourceTree = "<group>"; };
+		231530B51861806500E1B60A /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		231530B61861806500E1B60A /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		231530B81861807E00E1B60A /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		231530B91861807E00E1B60A /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +96,6 @@
 		2307AB3517FB4FFF009B7DFB = {
 			isa = PBXGroup;
 			children = (
-				2307AC1317FB65B1009B7DFB /* iOS App Background Screen@2x.png */,
 				2307AB4717FB4FFF009B7DFB /* VoiceApp */,
 				2307AB6617FB4FFF009B7DFB /* VoiceAppTests */,
 				2307AB4017FB4FFF009B7DFB /* Frameworks */,
@@ -121,11 +129,18 @@
 				2307AB5017FB4FFF009B7DFB /* AppDelegate.h */,
 				2307AB5117FB4FFF009B7DFB /* AppDelegate.m */,
 				2307AB5317FB4FFF009B7DFB /* Main.storyboard */,
+				231530B51861806500E1B60A /* ScheduleViewController.h */,
+				231530B61861806500E1B60A /* ScheduleViewController.m */,
+				231530B81861807E00E1B60A /* ProgressViewController.h */,
+				231530B91861807E00E1B60A /* ProgressViewController.m */,
+				231530B2185EDA3A00E1B60A /* ClientInfoController.h */,
+				231530B3185EDA3A00E1B60A /* ClientInfoController.m */,
 				2307AB5617FB4FFF009B7DFB /* ViewController.h */,
 				2307AB5717FB4FFF009B7DFB /* ViewController.m */,
 				2307AC1517FB6FA4009B7DFB /* UITabController.h */,
 				2307AC1617FB6FA4009B7DFB /* UITabController.m */,
 				2307AB5917FB4FFF009B7DFB /* Images.xcassets */,
+				2307AC1317FB65B1009B7DFB /* iOS App Background Screen@2x.png */,
 				2307AB4817FB4FFF009B7DFB /* Supporting Files */,
 			);
 			path = VoiceApp;
@@ -259,8 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2307AB5817FB4FFF009B7DFB /* ViewController.m in Sources */,
+				231530B71861806500E1B60A /* ScheduleViewController.m in Sources */,
 				2307AC1717FB6FA4009B7DFB /* UITabController.m in Sources */,
 				2307AB5217FB4FFF009B7DFB /* AppDelegate.m in Sources */,
+				231530B4185EDA3A00E1B60A /* ClientInfoController.m in Sources */,
+				231530BA1861807E00E1B60A /* ProgressViewController.m in Sources */,
 				2307AB4E17FB4FFF009B7DFB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

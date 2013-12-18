@@ -13,9 +13,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.completeExercises = [NSMutableArray array];
+    self.duration = [NSMutableArray array];
+    self.status = [NSMutableArray array];
+    self.days = [[NSString alloc] init];
+    
+    self.clinEmail = [[NSString alloc] init];
+    self.clinName = [[NSString alloc] init];
+    self.clEmail = [[NSString alloc] init];
+    self.clName = [[NSString alloc] init];
     return YES;
 }
-							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
